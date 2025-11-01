@@ -1,3 +1,4 @@
 # DockerKontit
 Ohjeita ja esimerkkejä Docker-sovellusten rakentamiseen.
-<img alt="Kontainerisointi2" src="https://github.com/user-attachments/assets/f082c7b0-a15b-4b67-a49f-a892fd0b5820" />
+
+<img width="1906" height="819" alt="Konttikuvia1" src="https://github.com/user-attachments/assets/0a5c13ef-b6b6-4796-9c42-5fa08aa1f0ef" />
