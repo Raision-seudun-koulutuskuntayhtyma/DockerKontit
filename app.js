@@ -21,7 +21,7 @@ const {engine} = require('express-handlebars');
 // Create an express app
 const app = express();
 
-// Define a TCP port to listen: read env or use 8080 in undefined
+// Define a TCP port to listen: read env or use 8080 if undefined
 const PORT = process.env.PORT || 8080
 
 // Set a folders for static files like css, images or icons
