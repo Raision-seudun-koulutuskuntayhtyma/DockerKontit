@@ -11,7 +11,7 @@ const {engine} = require('express-handlebars');
 
 // Local libraries and modules
 // ---------------------------
-
+const dbOperations = require('./dbOperations')
 // A module to demonstrate local dependency to be included in the container
 //const pgtools =  require('./postgres-tools')
 
