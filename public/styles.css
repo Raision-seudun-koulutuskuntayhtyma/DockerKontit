@@ -1,0 +1,38 @@
+/* Set size to follow parent's size*/
+* {
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and text elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #262626;
+    line-height: 1.6;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Common settings for Containers*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
