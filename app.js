@@ -9,9 +9,6 @@
 const express = require('express');
 const {engine} = require('express-handlebars');
 
-// Library for handling .env variables
-const dotenv = require('dotenv');
-
 // Local libraries and modules
 // ---------------------------
 
@@ -24,11 +21,8 @@ const dbOperations = require('./dbOperations')
 // Create an express app
 const app = express();
 
-// Intialize .env to access variables
-dotenv.config();
-
 // Define a TCP port to listen: read env or use 9000 if undefined
-const PORT = process.env.APP_CONTAINER_PORT || 9000
+const PORT = dbOperations.currentEnv.APP_CONTAINER_PORT || 9000
 
 // Set a folders for static files like css, images or icons
 app.use(express.static('public'));
