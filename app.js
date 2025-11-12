@@ -63,3 +63,5 @@ app.get('/tiedot', (req, res) => {
 // ------------
 app.listen(PORT)
 console.log(`Server started on port ${PORT}`)
+console.log('Connecting to a database server using following parameters:')
+console.log(dbOperations.connection)

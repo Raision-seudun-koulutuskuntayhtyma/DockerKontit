@@ -58,5 +58,5 @@ const getContainerData = async () => {
     let resultset = await pool.query(query);
     return resultset;
 }
-// Export functions needed by the main app
-module.exports = {currentEnv, getContainerData}
+// Export properties and functions needed by the main app
+module.exports = {currentEnv, connection, getContainerData}
