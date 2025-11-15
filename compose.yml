@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  postgresql:
+    image: postgres:18-trixie
+    ports:  
+      - "5434:5432"
+    environment:
+      - POSTGRES_PASSWORD=Q2werty7
+    volumes:
+      - db:/var/lib/postgresql
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./.env  
+    ports:
+      - "$APP_USER_PORT:$APP_CONTAINER_PORT"
+    depends_on:
+      - postgresql
+    command: node app.js
+volumes:
+  db:

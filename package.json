@@ -1,0 +1,31 @@
+{
+  "name": "dockerkontit",
+  "version": "1.0.0",
+  "description": "Esimerkkisovellus docker-konttien rakentamisesta",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raision-seudun-koulutuskuntayhtyma/DockerKontit.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Docker",
+    "Postgresql"
+  ],
+  "author": "MikaV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raision-seudun-koulutuskuntayhtyma/DockerKontit/issues"
+  },
+  "homepage": "https://github.com/Raision-seudun-koulutuskuntayhtyma/DockerKontit#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "pg": "^8.16.3",
+    "pg-pool": "^3.10.1"
+  }
+}
