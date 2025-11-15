@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2025-11-11T12:06:51.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="6gNaqB7k9MlpvrMzmPw9" version="21.6.8" type="device" pages="2">
+  <diagram name="Page-1" id="6BJcbSxc_1ienFgZrH6Q">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-1" value="Fyysinen laitteisto&lt;br style=&quot;font-size: 16px;&quot;&gt;(Host Hardware)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="500" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-2" value="Käyttöjärjestelmä&lt;br&gt;(Host Operating System)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="430" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-3" value="Virtualisointalusta&lt;br&gt;(Hypervisor)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-8" value="" style="group;fontStyle=4" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="120" y="160" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="6EajWpJB7bQRdGE0c5UK-8" vertex="1">
+          <mxGeometry y="-40" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-4" value="Virtuaalikoneen&lt;br style=&quot;font-size: 14px;&quot;&gt;käyttöjärjestelma&lt;br style=&quot;font-size: 14px;&quot;&gt;(Guest Operating System)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;glass=1;" parent="6EajWpJB7bQRdGE0c5UK-8" vertex="1">
+          <mxGeometry x="10" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-6" value="Sovellus&lt;br&gt;(Application)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;glass=1;" parent="6EajWpJB7bQRdGE0c5UK-8" vertex="1">
+          <mxGeometry x="10" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-13" value="Virtuaalikone&lt;br&gt;(Virtual Machine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6EajWpJB7bQRdGE0c5UK-8" vertex="1">
+          <mxGeometry x="15" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-14" value="" style="group;fontStyle=4" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="160" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="6EajWpJB7bQRdGE0c5UK-14" vertex="1">
+          <mxGeometry y="-40" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-16" value="Virtuaalikoneen&lt;br style=&quot;font-size: 14px;&quot;&gt;käyttöjärjestelma&lt;br style=&quot;font-size: 14px;&quot;&gt;(Guest Operating System)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;glass=1;" parent="6EajWpJB7bQRdGE0c5UK-14" vertex="1">
+          <mxGeometry x="10" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-17" value="Sovellus&lt;br&gt;(Application)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;glass=1;" parent="6EajWpJB7bQRdGE0c5UK-14" vertex="1">
+          <mxGeometry x="10" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-18" value="Virtuaalikone&lt;br&gt;(Virtual Machine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6EajWpJB7bQRdGE0c5UK-14" vertex="1">
+          <mxGeometry x="15" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-19" value="Fyysinen laitteisto&lt;br style=&quot;font-size: 16px;&quot;&gt;(Host Hardware)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="500" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-20" value="Käyttöjärjestelmä&lt;br&gt;(Host Operating System)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="430" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-21" value="Konttien ajoympäristö&lt;br&gt;(Container Engine)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="360" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-27" value="" style="group;fontStyle=4" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="160" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="6EajWpJB7bQRdGE0c5UK-27" vertex="1">
+          <mxGeometry y="60" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-31" value="Kontti&lt;br&gt;(Container)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6EajWpJB7bQRdGE0c5UK-27" vertex="1">
+          <mxGeometry x="15" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-33" value="Sovellus&lt;br&gt;(Application)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;glass=1;" parent="6EajWpJB7bQRdGE0c5UK-27" vertex="1">
+          <mxGeometry x="10" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="220" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-35" value="Kontti&lt;br&gt;(Container)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="465" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-36" value="Sovellus&lt;br&gt;(Application)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-37" value="Virtuaalikone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="235" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EajWpJB7bQRdGE0c5UK-38" value="Kontainerisointi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="560" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Fc1Cv0tCUjMr0Cgv4jCg" name="Page-2">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
